@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>katanga Biashara</title>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <div class="top-nav">
+      <div class="container d-flex">
+        <p>Commandez en ligne ou appelez-nous : (+243) 975189566</p>
+        <ul class="d-flex">
+          <li><a href="./about.html">Apropos</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="navigation">
+      <div class="nav-center container d-flex">
+        <a href="index.html" class="logo"><h1>Katanga Biashara</h1></a>
+
+        <div class="hamburger">
+          <i class="bx bx-menu-alt-left"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Details -->
+    <section class="section product-detail">
+      <div class="details container">
+        <div class="left image-container">
+          <div class="main">
+            <img src="../images/iphone12.jpg" id="zoom" alt="" />
+          </div>
+        </div>
+        <div class="right">
+
+          <h1>iphone 12 PROX MAX</h1>
+          <div class="price">$700</div>
+
+          <p>Vous voulais vous procure ça !</p><br>
+          <div class="price">contact vous au : (+243) 975189566</div><br>
+          
+          <h3>Detail</h3>
+          <p>
+            L'iPhone 12 Pro Max est le smartphone star d'Apple en 2020. 
+            Grâce à son écran OLED de 6,7 pouces, il est l'iPhone le plus 
+            grand jamais proposé par le constructeur californien.
+             Compatible 5G, équipé de la puce A14 Bionic, doté d'aimants 
+             MagSafe et décliné en quatre couleurs, il se distingue surtout 
+             grâce à son triple module caméra d'exception. En effet, son 
+             capteur grand-angle laisse passer 84% de lumière en plus et 
+             son téléobjectif dispose d'un agrandissement optique x2,5 
+             (x5 depuis l'ultra grand-angle).  Le smartphone dispose aussi 
+             d'un ultra grand-angle similaire à celui du 12 Pro et d'un LiDAR. 
+          </p><br/>
+          <a href="./cart.html">Prendre Rendez-vous</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Related -->
+    <section class="section featured">
+      <div class="top container">
+        <h1>Related Products</h1>
+      </div>
+      <div class="product-center container">
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="../images/iph.jpg" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>iphone 10</span>
+            
+            <h4>$150</h4>
+          </div>
+          
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="../images/ipho.jpg" alt="" />
+            </a>
+          
+          </div>
+          <div class="product-info">
+            <span>iphone 11</span>
+            
+            <h4>$150</h4>
+          </div>
+          
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="../images/iphone.jpg" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>iphone 11 pro </span>
+           
+            <h4>$150</h4>
+          </div>
+          
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="../images/iphone12.jpg" alt="" />
+            </a>
+            
+          </div>
+          <div class="product-info">
+            <span>iphone 12 pro max</span>
+           
+            <h4>$700</h4>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row">
+        <div class="col d-flex">
+          <h4>INFORMATION</h4>
+          <a href="../about.html">A propos</a>
+          <a href="">Contact</a>
+          
+        </div>
+        <div class="col d-flex">
+          <h4></h4>
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
+        </div>
+        <div class="col d-flex">
+          <span><i class='bx bxl-facebook-square'></i></span>
+          <span><i class='bx bxl-instagram-alt' ></i></span>
+        </div>
+      </div>
+    </footer>
+    <!-- Custom Script -->
+    <script src="./js/index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/zoomsl.min.js"></script>
+    <script>
+      $(function () {
+        console.log("hello");
+        $("#zoom").imagezoomsl({
+          zoomrange: [4, 4],
+        });
+      });
+    </script>
+  </body>
+</html>
